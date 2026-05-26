@@ -22,11 +22,11 @@ export default function Footer() {
 
         <div className="socialicons">
           <ul>
-            <li><a href="#"><span><i class="bi bi-facebook"></i></span></a></li>
-            <li><a href="#"><span><i class="bi bi-instagram"></i></span></a></li>
-            <li><a href="#"><span><i class="bi bi-twitter"></i></span></a></li>
-            <li><a href="#"><span><i class="bi bi-youtube"></i></span></a></li>
-            <li><a href="#"><span><i class="bi bi-pinterest"></i></span></a></li>
+            <li><link to={"/"}><span><i class="bi bi-facebook"></i></span></link></li>
+            <li><link to={"/"}><span><i class="bi bi-instagram"></i></span></link></li>
+            <li><link to={"/"}><span><i class="bi bi-twitter"></i></span></link></li>
+            <li><link to={"/"}><span><i class="bi bi-youtube"></i></span></link></li>
+            <li><link to={"/"}><span><i class="bi bi-pinterest"></i></span></link></li>
           </ul>
         </div>
         <p>© 2026 Gowthaman Foundation. All Rights Reserved. Design by Gowthaman</p>
