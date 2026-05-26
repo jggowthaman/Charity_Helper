@@ -1,6 +1,7 @@
 import React from 'react'
 import './Footer.css';
 import logoimg from '../../Asserts/footer logo.png'
+import { Link } from 'react-router-dom';
 
 
 export default function Footer() {
@@ -9,12 +10,12 @@ export default function Footer() {
       <div className='footerbox'>
         <img src={logoimg} alt="logo" />
 
-        <ul>
-          <li><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><a href="#">Charity</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
+         <ul>
+                  <li><Link to={"/"}>Home</Link></li>
+                  <li><Link to={"/about"}>About</Link></li>
+                  <li><Link  to={"/charity"}>Charity</Link></li>
+                  <li><Link to={"/contact"}>Contact</Link></li>
+                  </ul>
 
         
         
